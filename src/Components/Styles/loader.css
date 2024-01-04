@@ -1,0 +1,52 @@
+.component{
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#top, #diagnal, #opp-diagnal {
+    fill: black;
+    clip-path: polygon(0 0, 0 0, 0% 0%, 0 0%);
+}
+
+#top {
+    animation: from-right 0.4s ease forwards;
+}
+
+#diagnal {
+    animation: top-down 0.4s ease-in-out 0.2s forwards;
+}
+
+#opp-diagnal {
+    animation: opp 0.3s ease 0.62s forwards;
+}
+
+@keyframes from-right {
+    from {
+        clip-path: polygon(0 0, 0 0, 0% 0%, 0 0%);
+    }
+    to {
+        clip-path: polygon(0 0, 100% 0, 100% 1000%, 0% 100%);
+    }
+}
+
+@keyframes opp {
+    from {
+        clip-path: polygon(0 0, 0 0, 0% 0%, 0 0%);
+    }
+    to {
+        clip-path: polygon(0 0, 100% 0, 1000% 100%, 0% 100%);
+    }
+}
+
+@keyframes top-down {
+    from {
+        clip-path: polygon(0% 0, 100% 0, 0% 0%, 0 0%);
+    }
+    to {
+        clip-path: polygon(50% 0, 100% 0, 1000% 100%, 0% 100%);
+    }
+}
