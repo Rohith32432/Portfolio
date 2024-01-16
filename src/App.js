@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './Components/navbar';
 import Loader from './Components/Loading';
 import { useState } from 'react';
+import Main from './Components/Main';
 
 function App() {
   const [staus,setstaus]=useState(false)
@@ -13,7 +14,7 @@ function App() {
     <div className="App">
       
       <Navbar/>
-    
+    <Main/>
     </div>
   );
 }

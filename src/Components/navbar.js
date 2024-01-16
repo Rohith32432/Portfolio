@@ -1,6 +1,5 @@
 import React, { useRef } from 'react'
 import logo from '../logo.svg'
-import { a, useLocation } from "react-router-dom";
 import './Styles/navbar.css'
 function NavBar() {
     const nav=useRef(null)
