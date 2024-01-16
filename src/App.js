@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       
-      {staus?<Navbar/>:<Loader/>}
+      <Navbar/>
     </div>
   );
 }
