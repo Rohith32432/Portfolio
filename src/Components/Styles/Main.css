@@ -17,7 +17,7 @@ body{
     width: 35%;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
     padding: 35px;
@@ -78,7 +78,30 @@ body{
     margin:10px 0px;
     cursor: pointer;
 }
+.about-me {
+    position: relative;
+    left: 10%;
 
+}
+.about-me .con{
+    display: flex;
+    gap: 3rem;
+    margin: 5px;
+    padding: 5px;
+    width: 80%;
+}
+.con img{
+   width: 40%;
+}
+.con h1{
+    margin: 5px;
+ }
+.con .details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
 @media only screen and (max-width: 900px) {
 
     .hero .content{
@@ -88,7 +111,7 @@ body{
         display: flex;
         
         flex-direction: column;
-        align-items: start;
+        align-items: flex-start;
         flex-wrap: wrap;
         padding: 0px;
         text-transform: capitalize;
@@ -117,4 +140,63 @@ body{
     opacity: .5;
 }
 
+}
+section{
+    margin: 5px;
+    position: relative;
+    top: 50px;
+}
+section h1{
+    font-size: 2.5rem;
+    margin-bottom: 50px;;
+}
+.ins{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    width: 100%;
+    gap: 1.5rem;
+    
+}
+.ins p{
+    margin: 0;
+    padding: 2px;
+   
+}
+.ins p strong{
+   color: rgb(255, 42, 0);
+   margin-right: 5px;
+}
+.ins button {
+    margin-top: 15px;
+    background-color: #fd6524;
+    color: #fff;
+    padding: 10px 15px;
+    width: 50%;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: large;
+    cursor: pointer;
+    transition: width 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease;
+    box-sizing: border-box;
+}
+
+.ins button i {
+    opacity: 0;
+    position: relative;
+    font-size: 1.2rem;
+    top: 2.5px;
+
+    transition: opacity 0.5s ease;
+}
+
+.ins button:hover {
+    background-color: #f06a3d;
+    box-shadow: 0px 0px 8px rgb(234, 86, 32);
+    width: 53%;
+}
+
+.ins button:hover i {
+    opacity: 1;
 }
