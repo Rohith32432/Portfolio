@@ -1,6 +1,7 @@
 import React, { useRef } from 'react'
 import logo from '../logo.svg'
 import './Styles/navbar.css'
+import { Link } from 'react-router-dom';
 function NavBar() {
     const nav=useRef(null)
     let prevScrollPos = window.scrollY;
@@ -27,11 +28,11 @@ function NavBar() {
             <img src={logo} alt="" />
         </div>
         <div className="nav-container">
-            <a href="/"  className= 'inside' >home</a>
-            <a href="/todo" className= 'inside' >todo</a>
-            <a href="/form" className= 'inside' >validate</a>
-            <a href="/tictac" className= 'inside' >tictac</a>
-            <a href="/upload" className= 'inside' >upload</a>
+            <Link to="/"  className= 'inside' >home</Link>
+            <Link to="/skills"  className= 'inside' >Skills</Link>
+            <a href="/form" className= 'inside' >projects</a>
+            <a href="/tictac" className= 'inside' >contact</a>
+            <a href="/upload" className= 'inside' >techs</a>
         </div>
     </div>
    </nav>

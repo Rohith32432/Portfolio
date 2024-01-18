@@ -25,12 +25,12 @@ function Main() {
             <section>               
                   <h1>About me</h1>
                 <div className="about-me">
-                    <div className="con">
-                        <img src="https://sm.mashable.com/mashable_in/photo/default/snapinstaapp-365473084-1339804900221764-9002098302298960009_v1rd.jpg" alt="" />
-                        <div className="details">
+                    <div className="con"  data-aos="fade">
+                        <img data-aos="zoom-in" src="https://sm.mashable.com/mashable_in/photo/default/snapinstaapp-365473084-1339804900221764-9002098302298960009_v1rd.jpg" alt="" />
+                        <div className="details"data-aos="fade" >
                             <h1>I am Rohith Venkata Sai</h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi debitis provident neque sed! Pariatur, iure sapiente ratione deserunt dignissimos cum omnis sed iste ea recusandae magni error quia laudantium repellendus commodi, fuga quis excepturi fugit impedit ipsum vero, sit esse? Consequuntur itaque dignissimos illo rem minus amet accusamus tempore quidem.</p>
-                            <div className="ins">
+                            <div className="ins"  data-aos="fade" data-aos-delay="150">
                                 <p><strong>name : </strong> K.Rohith Venkata Sai</p>
                                 <p><strong>Email : </strong>2100032432csh@gmail.com</p>
                                 <p><strong>Phone Number : </strong>8341141759</p>
