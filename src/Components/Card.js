@@ -1,15 +1,16 @@
 import React from 'react';
 import './Styles/cards.css'
-const Card = () => {
+const Card = ({name}) => {
   return (
     <>
-      <h1>Card</h1>
+     
       <div className="layout">
         <div className="main">
           <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*8gmgaAkFdI-9OHY5cA93xQ.png" alt="Card Image" />
           <div className="content">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nobis eligendi eum quod minus distinctio
+              Lorem ipsum dolor sit amet consectetur adipisic
+              ing elit. Voluptatum nobis eligendi eum quod minus distinctio
               commodi doloremque odit incidunt, obcaecati ea sed repudiandae placeat quas neque perferendis enim officia
               numquam.
             </p>
@@ -19,14 +20,15 @@ const Card = () => {
             <li>bootstrspds</li>
           </div>
           <div className="vcontent">
-            <h2>name</h2>
+            <h2>{name}</h2>
             <div className="links">
-              <a href="/"><i className="fa-solid fa-up-right-from-square"></i></a>
-              <a href="/"><i className="fa-brands fa-github"></i></a>
+              <a href="/"><i class='bx bx-link-external' ></i></a>
+              <a href="/"><i class='bx bxl-github'></i></a>
             </div>
           </div>
         </div>
       </div>
+     
     </>
   );
 };
