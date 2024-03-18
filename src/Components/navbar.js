@@ -30,7 +30,7 @@ function NavBar() {
         <div className="nav-container">
             <Link to="/"  className= 'inside' >home</Link>
             <Link to="/skills"  className= 'inside' >Skills</Link>
-            <a href="/form" className= 'inside' >projects</a>
+            <Link to="/projects" className= 'inside' >projects</Link>
             <a href="/tictac" className= 'inside' >contact</a>
             <a href="/upload" className= 'inside' >techs</a>
         </div>

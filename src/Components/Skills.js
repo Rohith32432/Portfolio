@@ -6,7 +6,7 @@ function Skills() {
   return (
     <>
     <h1>cards</h1>
-    <div className="testing">
+    <div className="container">
     {certifications.map((ele)=>(
       <Card name={ele.name}/>
 

@@ -1,34 +1,33 @@
 import React from 'react';
+import { FaGithub } from "react-icons/fa";
+import { FiExternalLink } from "react-icons/fi";
+
 import './Styles/cards.css'
 const Card = ({name}) => {
   return (
     <>
-     
-      <div className="layout">
-        <div className="main">
-          <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*8gmgaAkFdI-9OHY5cA93xQ.png" alt="Card Image" />
-          <div className="content">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisic
-              ing elit. Voluptatum nobis eligendi eum quod minus distinctio
-              commodi doloremque odit incidunt, obcaecati ea sed repudiandae placeat quas neque perferendis enim officia
-              numquam.
-            </p>
-            <li>node</li>
-            <li>react</li>
-            <li>mongodb</li>
-            <li>bootstrspds</li>
-          </div>
-          <div className="vcontent">
-            <h2>{name}</h2>
-            <div className="links">
-              <a href="/"><i class='bx bx-link-external' ></i></a>
-              <a href="/"><i class='bx bxl-github'></i></a>
+   
+     <div class="layout">
+            <div class="main">
+                <img src="https://fujifilm-x.com/wp-content/uploads/2021/01/gfx100s_sample_04_thum-1.jpg" alt="Card Image"/>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit   amet consectetur adipisicing elit. Voluptatum nobis eligendi eum quod minus distinctio commodi doloremque odit incidunt, obcaecati ea sed repudiandae placeat quas neque perferendis enim officia numquam.
+                    </p>
+                    <li>node</li>
+                    <li>react</li>
+                    <li>mongodb</li>
+                    <li>bootstrspds</li>
+                </div>
+                <div class="vcontent">
+                    <h2>name</h2>
+                    <div class="links">
+                        <a href="#"> <FiExternalLink size={30}/></a>
+                        <a href="#"><i class="fa-brands fa-github"><FaGithub size={30}/></i></a>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-     
+    
     </>
   );
 };

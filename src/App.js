@@ -6,6 +6,7 @@ import Navbar from './Components/navbar';
 import Main from './Components/Main';
 import { Route, Routes } from 'react-router-dom';
 import Skills from './Components/Skills';
+import Projects from './Components/Projects';
 
 function App() {
   // const [staus,setstaus]=useState(false)
@@ -19,6 +20,7 @@ function App() {
       <Routes>
    <Route path='/' element={<Main/>}></Route>
    <Route path='/skills' element={<Skills/>}></Route>
+   <Route path='/projects' element={<Projects/>}></Route>
     </Routes>
     </div>
   );
