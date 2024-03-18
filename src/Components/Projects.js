@@ -23,8 +23,8 @@ function Projects() {
       }
       <div className='main-box'>
 
-           <Marquee pauseOnHover={true} style={{width:'90%'}}  direction='right'>
-          <div style={{ color: '', display: 'flex', alignItems: 'center', gap: 40 }}>
+           <Marquee  pauseOnHover={true} style={{width:'90%'}}  direction='right'>
+          <div style={{ color: 'orangered', display: 'flex', alignItems: 'center', gap: 40 }}>
             <FaJava size={80} />
             <IoLogoJavascript size={80} />
             <FaNode size={80} />

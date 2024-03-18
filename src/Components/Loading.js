@@ -2,7 +2,7 @@ import React from 'react'
 import './Styles/loader.css'
 function Loader() {
   return (
-    <svg width="500" height="500" viewBox="0 0 500 328" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="700" height="700" viewBox="0 0 500 328" fill="none" xmlns="http://www.w3.org/2000/svg">
 
     <g id="top">
         <path id="sub1" fill-rule="evenodd" clip-rule="evenodd"

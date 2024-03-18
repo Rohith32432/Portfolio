@@ -1,3 +1,9 @@
+.loader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
 .App-logo {
   height: 40vmin;
@@ -7,6 +13,18 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App{
+  animation: fade 1s ease  forwards;
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
   }
 }
 

@@ -3,11 +3,11 @@ import { FaGithub } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
 
 import './Styles/cards.css'
-const Card = ({name}) => {
+const Card = ({name ,id}) => {
   return (
     <>
    
-     <div class="layout">
+     <div class="layout" data-aos="fade-up" data-aos-delay={id*300}>
             <div class="main">
                 <img src="https://fujifilm-x.com/wp-content/uploads/2021/01/gfx100s_sample_04_thum-1.jpg" alt="Card Image"/>
                 <div class="content">

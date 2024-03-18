@@ -7,8 +7,8 @@ function Skills() {
     <>
     <h1>cards</h1>
     <div className="container">
-    {certifications.map((ele)=>(
-      <Card name={ele.name}/>
+    {certifications.map((ele,id)=>(
+      <Card name={ele.name} id={id} />
 
     ))}</div>
     </>
